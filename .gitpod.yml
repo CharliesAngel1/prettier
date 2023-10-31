@@ -1,3 +1,4 @@
+---
 # https://gitpod.io/#https://github.com/prettier/prettier
 
 tasks:
@@ -23,3 +24,4 @@ vscode:
     - dbaeumer.vscode-eslint
     - editorconfig.editorconfig
     - streetsidesoftware.code-spell-checker
+    - GitHub.vscode-pull-request-github

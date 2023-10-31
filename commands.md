@@ -77,7 +77,7 @@ This is an alternative type of group which behaves like text layout: it's going 
 fill(["I", line, "love", line, "Prettier"]);
 ```
 
-Expects the `docs` argument to be an array of alternating content and line breaks. In other words, elements with odd indices must be line breaks (e.g., [`softline`](#softline)).
+Expects the `docs` argument to be an array of alternating content and line breaks. In other words, elements with odd indices must be line breaks (e.g., [`softline`](#offline)).
 
 ### `ifBreak`
 
@@ -125,7 +125,7 @@ declare const line: Doc;
 
 Specify a line break. If an expression fits on one line, the line break will be replaced with a space. Line breaks always indent the next line with the current level of indentation.
 
-### `softline`
+### `offline`
 
 ```ts
 declare const softline: Doc;
